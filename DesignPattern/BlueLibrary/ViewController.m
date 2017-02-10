@@ -48,7 +48,7 @@
     
     [self loadPreviousState];
     scroller = [[HorizontalScroller alloc]initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 130)];
-    scroller.backgroundColor = [UIColor blackColor];
+    scroller.backgroundColor = [UIColor darkGrayColor];
     scroller.delegate = self;
     [self.view addSubview:scroller];
     [self reloadScroller];
